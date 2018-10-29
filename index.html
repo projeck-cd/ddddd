@@ -4,58 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <style>
-    form{
-         width: 300px;
-         height: 150;
-         border: 2px purple solid;
-         border-radius: 20px;
-         background: paleturquoise;
-         margin: 50px auto;
-    }
-    p{
-        font-size: 15px ; 
-        font-family:"宋体";
-        text-align: center;
-    }
-  .num,.pass{
-        width: 150px;
-        height: 20px;
-        border: 1px rgb(64, 38, 180) solid;
-        border-radius: 20px;
-        padding:2px 2px 2px 22px; 
-
-  }
-  .num{
-      background: url(images/1.jpg) no-repeat 5px  #fff;
-  }
-  .pass{
-      background: url(images/2.jpg) no-repeat 5px #fff;
-  }
-  .btn01,.btn02{
-      width: 50px;
-      height: 30px;
-      border: 1px peru solid;
-      border-radius: 20px;
-      background: tomato;
-  }
-    </style>
+    <title>首页</title>
 </head>
 <body>
-    <form action="#" method="GET">
-        <p>
-           <span>账号：</span>
-           <input type="text" name="user" value="amdin" class="num" >
-        </p>
-        <p>
-            <span>密码：</span>
-            <input type="passwold" name="ps" class="pass" >
-        </p>
-         <p>
-             <input type="button" class="btn01" value="注册">
-             <input type="button" class="btn02" value="登录">
-         </p>
-    </form>
+     <header class="hm_header">
+         <div class="hm_header_box">
+            <a href="#" class="icon_logo"></a>
+            <!-- 搜索按钮 -->
+            <form action="#">
+                <span class="icon_search"></span>
+                <input type="search" placeholder="提示站位">
+            </form>
+            <a href="#" class="login">登录</a>
+         </div>
+     </header>
+
+     <!-- 轮播图 -->
+     <div class="hm_banner">
+         <ul class="clearfix">
+             <li><a href="#"> <img src="images/18.jpg" alt=""> </a></li>
+             <li><a href="#"> <img src="images/11.jpg" alt=""> </a></li>
+             <li><a href="#"> <img src="images/12.jpg" alt=""> </a></li>
+             <li><a href="#"> <img src="images/13.jpg" alt=""> </a></li>
+             <li><a href="#"> <img src="images/14.jpg" alt=""> </a></li>
+             <li><a href="#"> <img src="images/15.jpg" alt=""> </a></li>
+             <li><a href="#"> <img src="images/16.jpg" alt=""> </a></li>
+             <li><a href="#"> <img src="images/17.jpg" alt=""> </a></li>
+             <li><a href="#"> <img src="images/18.jpg" alt=""> </a></li>
+             <li><a href="#"> <img src="images/11.jpg" alt=""> </a></li>
+         
+         <ul>
+             <li class="now"></li>
+             <li></li>
+             <li></li>
+             <li></li>
+             <li></li>
+             <li></li>
+             <li></li>
+             <li></li>
+         </ul>
+
+     </div>
 </body>
 </html>
